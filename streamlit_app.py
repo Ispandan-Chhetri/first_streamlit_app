@@ -41,7 +41,6 @@ try:
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
-
 except URLError as e:
     stream.error()
 
@@ -71,8 +70,8 @@ if streamlit.button('Get Fruit Load list'):
   streamlit.dataframe(my_data_rows)
 
 
-
-
+#don't run anything past here while we troubleshoot
+streamlit.stop()
 
 
 
