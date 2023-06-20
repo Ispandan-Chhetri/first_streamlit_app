@@ -41,8 +41,8 @@ try:
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
-except URLError as e:
-    stream.error()
+#except URLError as e:
+    #stream.error()
 
 Streamlit.header('The fruit load list contains:')
 
