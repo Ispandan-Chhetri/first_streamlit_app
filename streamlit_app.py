@@ -56,7 +56,8 @@ except URLError as e:
 #streamlit.header("The  fruit load list contains:")
 #streamlit.dataframe(my_data_rows)
 
-Streamlit.header("The fruit load list contains:")
+#streamlit.header('Fruityvice Fruit Advice!')
+Streamlit.header('The fruit load list contains:')
 
 streamlit.stop()
 
